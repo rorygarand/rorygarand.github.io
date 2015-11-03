@@ -109,13 +109,9 @@
 				<h3>Ready to leave your mark?</h3>
 				<br /><br />
 				<form class="polymer">
-					<span class="select col-sm-6 col-xs-12">
-			            <select ng-model="u.permission"
-			            		ng-options="p.b as p.t for p in [{b:true, t:'Yes'},{b:false,t:'No'}]"
-			            		required>
-			            		{{u.permission}}
-			            </select>
-			            <label ng-class="{'valid': u.permission !== undefined}">Purchase Permission</label>
+					<span class="select">
+			            <select id="countries" required></select>
+			            <label>Country Code</label>
 			        </span>
 					<input type="text" required>
 					<span class="highlight"></span>
@@ -148,6 +144,17 @@
 				$('video').trigger('play');
 				}
 			});
+			$.ajax({
+				url: 'js/countries.json',
+				type: 'GET',
+				data: 'q=' + str,
+				dataType: 'json',
+				success: function (countries) {
+					$.each(countries, function(c) {
+						$("countries").append("<option value='" + c.value + "'>" + c.name + "</option>");
+					});
+				}
+			});			
 		});
 	</script>
 </body>
