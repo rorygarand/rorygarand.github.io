@@ -784,7 +784,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	 display: block;	
  }
 */ 
-.copyrigth {
+.copyright {
 	font-size: 12px;
 	color: #888888;
 	letter-spacing: 0.2px;	
@@ -796,7 +796,14 @@ only screen and (min-device-pixel-ratio: 2) {
 	left:0;
 }
 
-.copyrigth a {
+.copyright img {
+	height: 12px;
+	width: auto;
+	top: 2px;
+	position: relative;
+}
+
+.copyright a {
 	color: #20c36b;
 	text-decoration: none;
 }
@@ -806,7 +813,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	text-decoration: none;
 }
 
-.copyrigth a:visited {
+.copyright a:visited {
 	color: #20c36b;
 	text-decoration: none;
 }
