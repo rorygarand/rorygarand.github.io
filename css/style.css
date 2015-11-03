@@ -97,7 +97,7 @@ body {
   pointer-events: none;
   left: 0px;
   padding-left: 5px;
-  top: 0px;
+  top: 10px;
   transition: 0.2s ease all;
 }
 
@@ -148,10 +148,6 @@ body {
 .polymer .select > select:focus {
   outline: 0;
 }
-
-/*.polymer .select label {
-  left: 10px;
-}*/
 
 .polymer .select select:valid ~ label {
   top: -20px;
