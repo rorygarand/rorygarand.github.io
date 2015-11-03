@@ -141,6 +141,8 @@ body {
 
 .polymer .select {
   position: relative;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .polymer .select > select {
@@ -191,6 +193,35 @@ body {
 
 .polymer .select select:valid ~ .select:after {
 	display: none !important;
+}
+
+.btn {
+	border-radius: 3px;
+	position: relative;
+	outline: 0;
+	border: 0;
+	display: inline-block;
+	padding: 0 6px;
+	line-height: 36px;
+	max-height: 36px;
+	background: 0 0;
+	white-space: nowrap;
+	min-width: 88px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	overflow: hidden;
+	letter-spacing: 0.1em;
+	margin: 16px 0;
+}
+
+.primary {
+	color: #fff;
+	background-color: #5472d2;
 }
 	
 /* Section 0
@@ -900,21 +931,6 @@ only screen and (min-device-pixel-ratio: 2) {
 	letter-spacing: 0.2px;
 	text-align: center;
 	margin-top: 10px;
-}
-
-
-.section4 .app-store-btn {
-	background: url(../img/app-store.png) no-repeat;
-	background-size: 100% 100%;
-	width: 177px;
-	height: 62px;
-	margin: 0 auto;
-	margin-top: 70px;	
-}
-
-.section4 .app-store-btn:hover {
-	background: url(../img/app-store-hover.png) no-repeat;
-	background-size: 100% 100%;	
 }
 
 
