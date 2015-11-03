@@ -150,6 +150,7 @@
 				dataType: 'json',
 				success: function (countries) {
 					$.each(countries, function(c) {
+						console.log(c);
 						$("countries").append("<option value='" + c.value + "'>" + c.name + "</option>");
 					});
 				}
