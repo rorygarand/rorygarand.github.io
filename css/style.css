@@ -18,6 +18,14 @@ body {
     visibility: hidden;
 }
 
+.row {
+	position: absolute;;
+}
+
+.col {
+	position: relative;
+}
+
 .polymer {
 	position: relative;
 	text-align: center;
