@@ -24,12 +24,11 @@ function init() {
 
 function update(e) {
 	e.preventDefault();
-	console.log()
 	$.ajax({
 		type: 'POST',
 		headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
 		url: 'https://api.parse.com/1/functions/updateUser',
-		data: { number: $('#countries').val() + $('#number').val() },
+		data: { 'number': $('#countries').val() + $('#number').val() },
 		dataType: 'json',
 		contentType: 'application/json',
 		success: function(res){console.log(res);},
