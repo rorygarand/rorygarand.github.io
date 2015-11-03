@@ -28,7 +28,7 @@ function update(e) {
 		type: 'POST',
 		headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
 		url: 'https://api.parse.com/1/functions/updateUser',
-		data: '{"number": ' + $('#countries').text() + $('#number').text() + '}',
+		data: '{"number": ' + String($('#countries').val()) + String($('#number').val()) + '}',
 		dataType: 'json',
 		contentType: 'application/json',
 		success: function(res){console.log(res);},
