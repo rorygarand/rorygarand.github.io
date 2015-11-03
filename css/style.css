@@ -94,7 +94,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	.section0 .logo {
 		width: 70px;
 		height: 70px;
-		border: 16pt solid #20c36b;
+		border: 16pt solid #5472d2;
 	}
 	.section0 h1 {
 		font-size: 32px;
@@ -129,7 +129,7 @@ and (max-device-width : 1024px) {
 		-moz-border-radius: 150px;
 		-webkit-border-radius: 150px;
 		border-radius: 150px;
-		border: 30pt solid #20c36b;
+		border: 30pt solid #5472d2;
 	}	
 	.section0 h1 {
 		margin-bottom: 60px;
@@ -765,14 +765,14 @@ only screen and (min-device-pixel-ratio: 2) {
  
  .section4 .facebook a{
  	font-size: 14px;
- 	color: #20c36b;
+ 	color: #5472d2;
  	text-decoration: none;
 	float: left;
   }
  
 .section4 .twitter a{
 	font-size: 14px;
-	color: #20c36b;
+	color: #5472d2;
 	text-decoration: none;
 	float: left;
 	padding-left: 20px;
@@ -804,17 +804,17 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .copyright a {
-	color: #20c36b;
+	color: #5472d2;
 	text-decoration: none;
 }
 
 .copyright a:hover {
-	color: #20c36b;
+	color: #5472d2;
 	text-decoration: none;
 }
 
 .copyright a:visited {
-	color: #20c36b;
+	color: #5472d2;
 	text-decoration: none;
 }
  

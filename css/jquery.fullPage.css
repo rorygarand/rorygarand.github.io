@@ -141,7 +141,7 @@ html, body {
 }
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span {
-    background: #20c36b; /* change color */
+    background: #5472d2;
     left: 0px;
     top: -2px;
     width: 10px;
