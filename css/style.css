@@ -34,7 +34,7 @@ body {
   position: relative;
   display: block;
   width: auto;
-  margin-right: -10px;
+  margin-right: -5px;
 }
 
 .polymer .bar:before, .polymer .bar:after {
