@@ -122,7 +122,7 @@ body {
 .polymer input:focus ~ label, .polymer input:valid ~ label {
   top: -15px;
   font-size: 12px;
-  color: #5472d2;
+  color: #888888;
 }
 
 .polymer .select {
@@ -131,7 +131,7 @@ body {
 
 .polymer .select > select {
   margin-bottom: 10px;
-  padding: 10px 0 10px 15px;
+  padding: 10px 0 10px 5px;
   width: 100%;
   position: relative;
   background-color: #fff;
@@ -149,9 +149,9 @@ body {
   outline: 0;
 }
 
-.polymer .select label {
+/*.polymer .select label {
   left: 10px;
-}
+}*/
 
 .polymer .select select:valid ~ label {
   top: -20px;
