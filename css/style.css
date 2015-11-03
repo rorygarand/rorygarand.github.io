@@ -134,7 +134,7 @@ body {
 }
 
 .polymer input:focus ~ label, .polymer input:valid ~ label {
-  top: -15px;
+  top: -20px;
   font-size: 12px;
   color: #888888;
 }
