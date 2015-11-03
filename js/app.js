@@ -28,5 +28,6 @@ function init() {
 }
 
 function submit() {
+	event.preventDefault();
 	console.log('here');
 }
