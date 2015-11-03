@@ -127,6 +127,7 @@ body {
   width: 100%;
   position: relative;
   background-color: #fff;
+  font-size: 20px;
   color: #555555;
   text-indent: 0.01px;
   text-overflow: "";
@@ -146,7 +147,7 @@ body {
 
 .polymer .select select:valid ~ label {
   top: -10px;
-  font-size: 20px;
+  font-size: 12px;
   color: #888888;
 }
 
