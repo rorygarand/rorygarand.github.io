@@ -149,8 +149,8 @@
 				type: 'GET',
 				dataType: 'json',
 				success: function (countries) {
-					$.each(countries, function(c) {
-						console.dir(c);
+					$.each(countries, function(c,v) {
+						console.dir(v);
 						$("countries").append("<option value='" + c.value + "'>" + c.name + "</option>");
 					});
 				}
