@@ -147,7 +147,6 @@
 			$.ajax({
 				url: 'js/countries.json',
 				type: 'GET',
-				data: 'q=' + str,
 				dataType: 'json',
 				success: function (countries) {
 					$.each(countries, function(c) {
