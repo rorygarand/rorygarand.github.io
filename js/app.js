@@ -1,6 +1,7 @@
 Parse.initialize("ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml", "eMQ7wP2oHSVKopu6LI4AaMtc2fLwXhPdt2JmJaMh");
 
 $(document).ready(init);
+$('#phone').submit(update);
 
 function init() {
 	$('#fullpage').fullpage({
@@ -27,7 +28,7 @@ function init() {
 	});	
 }
 
-function submit() {
+function update() {
 	event.preventDefault();
 	console.log('here');
 }
