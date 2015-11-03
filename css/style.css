@@ -163,6 +163,7 @@ body {
   top: -20px;
   font-size: 12px;
   color: #888888;
+  border-bottom: 2px solid #5472d2;
 }
 
 .polymer .select:after {
