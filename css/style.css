@@ -19,11 +19,21 @@ body {
 }
 
 .row {
-	position: absolute;;
+	position: absolute;
+	max-width: 100%;
 }
 
 .col {
 	position: relative;
+	max-width: 48%;
+}
+
+.one {
+	float: left;
+}
+
+.two {
+	float: right;
 }
 
 .polymer {
