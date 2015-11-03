@@ -195,6 +195,10 @@ body {
 	display: none !important;
 }
 
+.polymer .btn {
+	top: 50px;
+}
+
 .btn {
 	border-radius: 3px;
 	position: relative;
