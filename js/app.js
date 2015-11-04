@@ -1,7 +1,6 @@
 $(document).ready(init);
 $('#phone').submit(update);
-$('#countries').change(manageSubmit);
-$('#number').change(manageSubmit);
+$('#countries', '#number').keyup(manageSubmit);
 
 function error(res) {
 	console.log(res);
