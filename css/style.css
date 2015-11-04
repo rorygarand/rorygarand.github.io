@@ -247,7 +247,7 @@ body {
 	background-color: #FF3B30;
 }
 
-.working {
+.working, .working:disabled {
 	color: #fff;
 	background-color: #4CD964;
 }
