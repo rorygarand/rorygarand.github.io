@@ -47,7 +47,7 @@ function update(e) {
 		data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
 		dataType: 'json',
 		contentType: 'application/json',
-		success: success,
+		success: error,
 		error: error
 	});
 }
