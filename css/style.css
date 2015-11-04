@@ -223,6 +223,10 @@ body {
 	margin: 16px 0;
 }
 
+.btn:disabled {
+	cursor: not-allowed;
+}
+
 .primary {
 	color: #fff;
 	background-color: #5472d2;
@@ -234,13 +238,18 @@ body {
 }
 
 .primary:disabled {
-	cursor: not-allowed;
 	color: #fff;
 	background-color: #7c93dd;
 }
 
-.working {
+.error {
+	color: #fff;
+	background-color: #FF3B30;
+}
 
+.working {
+	color: #fff;
+	background-color: #4CD964;
 }
 	
 /* Section 0

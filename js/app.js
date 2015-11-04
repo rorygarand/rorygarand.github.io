@@ -1,6 +1,13 @@
 $(document).ready(init);
 $('#phone').submit(update);
 
+function error(res) {
+	console.log(res);
+	$('#submit').removeClass('working');
+	$('#submit').addClass('error');
+	$('#submit').text('Error');
+}
+
 function init() {
 	$('#fullpage').fullpage({
 		navigation: true,
@@ -22,18 +29,26 @@ function init() {
 	});	
 }
 
+function success(res) {
+	console.log(res);
+	$('#submit').removeClass('working');
+	$('#submit').addClass('success');
+	$('#submit').text('Success');
+}
+
 function update(e) {
 	e.preventDefault();
 	$('#submit').addClass('working');
 	$('#submit').text('Working');
-	// $.ajax({
-	// 	type: 'POST',
-	// 	headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
-	// 	url: 'https://api.parse.com/1/functions/updateUser',
-	// 	data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
-	// 	dataType: 'json',
-	// 	contentType: 'application/json',
-	// 	success: function(res){console.log(res);},
-	// 	error: function(res){console.log(res);}
-	// });
+	$('#submit').attr('disabled', true);
+	$.ajax({
+		type: 'POST',
+		headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
+		url: 'https://api.parse.com/1/functions/updateUser',
+		data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
+		dataType: 'json',
+		contentType: 'application/json',
+		success: success,
+		error: error
+	});
 }
