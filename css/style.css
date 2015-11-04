@@ -226,7 +226,6 @@ body {
 .primary {
 	color: #fff;
 	background-color: #5472d2;
-	content: 'Submit';
 }
 
 .primary:hover, .primary:active {
