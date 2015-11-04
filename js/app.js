@@ -32,7 +32,7 @@ function init() {
 function success(res) {
 	console.log(res);
 	$('#submit').addClass('success');
-	$('#submit').text('Success');
+	$('#submit').text('Check your phone!');
 	$('#submit').removeClass('primary');
 }
 
