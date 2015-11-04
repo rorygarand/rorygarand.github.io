@@ -41,14 +41,14 @@ function update(e) {
 	$('#submit').addClass('working');
 	$('#submit').text('Working');
 	$('#submit').attr('disabled', true);
-	$.ajax({
-		type: 'POST',
-		headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
-		url: 'https://api.parse.com/1/functions/updateUser',
-		data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
-		dataType: 'json',
-		contentType: 'application/json',
-		success: success,
-		error: error
-	});
+	// $.ajax({
+	// 	type: 'POST',
+	// 	headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},
+	// 	url: 'https://api.parse.com/1/functions/updateUser',
+	// 	data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
+	// 	dataType: 'json',
+	// 	contentType: 'application/json',
+	// 	success: success,
+	// 	error: error
+	// });
 }
