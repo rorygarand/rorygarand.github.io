@@ -4,7 +4,7 @@ $('#phone').submit(update);
 function error(res) {
 	console.log(res);
 	$('#submit').addClass('error');
-	$('#submit').text('Error');
+	$('#submit').text('Error, please try again later');
 	$('#submit').removeClass('primary');
 }
 
@@ -47,7 +47,7 @@ function update(e) {
 		data: JSON.stringify({ number: $('#countries').val() + $('#number').val() }),
 		dataType: 'json',
 		contentType: 'application/json',
-		success: error,
+		success: success,
 		error: error
 	});
 }
