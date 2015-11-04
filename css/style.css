@@ -242,12 +242,12 @@ body {
 	background-color: #7c93dd;
 }
 
-.error {
+.error, .error:disabled {
 	color: #fff;
 	background-color: #FF3B30;
 }
 
-.working, .working:disabled {
+.success, .success:disabled {
 	color: #fff;
 	background-color: #4CD964;
 }
