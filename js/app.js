@@ -1,5 +1,7 @@
 $(document).ready(init);
 $('#phone').submit(update);
+$('#countries').change(manageSubmit);
+$('#number').change(manageSubmit);
 
 function error(res) {
 	console.log(res);
@@ -27,6 +29,16 @@ function init() {
 			});
 		}
 	});	
+}
+
+function manageSubmit() {
+	var pattern = new RegExp(^\d{5,25}$);
+	if($('#countries').val().length > 0 && pattern($('#number').val()) {
+		$('#submit').removeAttr('disabled');
+	}
+	else {
+		$('#submit').attr('disabled', true);
+	}
 }
 
 function success(res) {
