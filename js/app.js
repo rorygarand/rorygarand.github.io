@@ -24,6 +24,7 @@ function init() {
 
 function update(e) {
 	e.preventDefault();
+	$('#submit').addClass('working');
 	$.ajax({
 		type: 'POST',
 		headers: {'X-Parse-Application-Id':'ba9FVqIfWQewBALxfL6YAYPRqBwcfnFPTia2Pnml','X-Parse-REST-API-Key':'uyjebhN3G6GtksORjUui1kSz8KREHlHgLmlYj95G'},

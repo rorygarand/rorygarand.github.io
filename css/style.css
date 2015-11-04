@@ -226,6 +226,22 @@ body {
 .primary {
 	color: #fff;
 	background-color: #5472d2;
+	content: 'Submit';
+}
+
+.primary:hover, .primary:active {
+	color: #fff;
+	background-color: #3354c0;
+}
+
+.primary:disabled {
+	cursor: not-allowed;
+	color: #fff;
+	background-color: #7c93dd;
+}
+
+.working {
+
 }
 	
 /* Section 0
