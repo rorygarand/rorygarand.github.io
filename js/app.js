@@ -32,7 +32,7 @@ function init() {
 }
 
 function manageSubmit() {
-	var pattern = new RegExp(^\d{5,25}$);
+	var pattern = new RegExp(/^(\d{5,25}$)/);
 	if($('#countries').val().length > 0 && pattern($('#number').val()) {
 		$('#submit').removeAttr('disabled');
 	}
