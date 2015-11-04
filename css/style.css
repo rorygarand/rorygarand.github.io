@@ -202,6 +202,7 @@ body {
 .btn {
 	border-radius: 3px;
 	-webkit-appearance: none;
+	-webkit-border-radius:0px;
 	position: relative;
 	outline: 0;
 	border: 0;
