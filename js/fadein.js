@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $(".logo").addClass("animated fadeInUp visible");
+    // $(".logo").addClass("animated fadeInUp visible");
     setTimeout(function(){
         $("h1").addClass("animated fadeInUp visible");
     }, 1000);
