@@ -293,6 +293,7 @@ body {
 }
 .section0 button {
 	display: block;
+	margin: 10px auto;
 }
 .section0 .scroll-down {
 	background: url(../img/scroll.png) no-repeat center center;
