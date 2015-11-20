@@ -6,7 +6,7 @@ $( document ).ready(function() {
     setTimeout(function(){
         $("h2").addClass("animated fadeInUp visible");
     }, 2000);
-    setTimeout(Function(){
+    setTimeout(function(){
         $("#action").addClass("animated fadeInUp visible");
     }, 2200);
     setTimeout(function(){
