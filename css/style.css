@@ -291,6 +291,11 @@ body {
 	max-width: 350px;
 	margin: 0px auto;
 }
+.section0 button {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
 .section0 .scroll-down {
 	background: url(../img/scroll.png) no-repeat center center;
 	width:100%;
@@ -300,7 +305,6 @@ body {
 	left:0;
 	background-size: 24px 45px;
 }
-
 
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
