@@ -944,7 +944,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .section4 .app-icon {
-	background: url(../img/app-icon.png) no-repeat;
+	/*background: url(../img/app-icon.png) no-repeat;*/
 	background-size: 100% 100%;
 	width: 126px;
 	height: 100px;
