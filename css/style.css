@@ -1064,7 +1064,7 @@ only screen and (min-device-pixel-ratio: 2) {
  		line-height: 24px;
  	}
  	.section4 .app-icon {
- 		background: url(../img/app-icon.png) no-repeat;
+ 		/*background: url(../img/app-icon.png) no-repeat;*/
  		background-size: cover;
  		width: 100px;
  		height: 100px;
@@ -1090,7 +1090,7 @@ and (max-device-width : 1024px) {
  		line-height: 24px;
  	}
  	.section4 .app-icon {
- 		background: url(../img/app-icon.png) no-repeat;
+ 		/*background: url(../img/app-icon.png) no-repeat;*/
  		background-size: cover;
  		width: 120px;
  		height: 120px;
@@ -1106,7 +1106,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.section4 .app-icon {
-		background: url(../img/app-icon@2x.png) no-repeat;
+		/*background: url(../img/app-icon@2x.png) no-repeat;*/
 		background-size: 100% 100%;
 	}
 	.section4 .app-store-btn {
